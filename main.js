@@ -22,4 +22,4 @@ cognome = prompt("inserisci il tuo cognome");
 colore = prompt("inserisci il tuo colore preferito");
 
 // calcolare password sommando nome cognome colere e 19
-document.getElementById('password').innerHTML = nome + cognome + colore + "19";
+document.getElementById('password').innerHTML = "La tua password poco sicura è: " + nome + cognome + colore + "19";
